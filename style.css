@@ -1,0 +1,107 @@
+    body {
+      font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    }
+    .icon1 {
+      width: 15px !important;
+      height: 15px !important;
+      border-radius: 10px;
+      border: 2px solid #fdfdfd;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+      background-color: rgb(0, 89, 255);
+    }
+    .icon2 {
+      width: 15px !important;
+      height: 15px !important;
+      border-radius: 10px;
+      border: 2px solid #fdfdfd;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+      background-color: rgb(255, 81, 0);
+    }
+    .icon3 {
+      width: 15px !important;
+      height: 15px !important;
+      border-radius: 10px;
+      border: 2px solid #fdfdfd;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+      background-color: rgb(187, 184, 0);
+    }
+    .icon4 {
+      width: 15px !important;
+      height: 15px !important;
+      border-radius: 10px;
+      border: 2px solid #fdfdfd;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+      background-color: rgb(0, 204, 126);
+    }
+    .icon5 {
+      width: 15px !important;
+      height: 15px !important;
+      border-radius: 10px;
+      border: 2px solid #fdfdfd;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+      background-color: rgb(255, 0, 212);
+    }
+    .leaflet-control-layers-expanded {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .tokaido-label {
+      color: rgb(0, 89, 255);
+      font-weight: bold;
+    }
+
+    .nakasendo-label {
+      color: rgb(255, 81, 0);
+      font-weight: bold;
+    }
+
+    .nikkou-label {
+      color: rgb(128, 125, 0);
+      font-weight: bold;
+    }
+
+    .ousyu-label {
+      color: rgb(0, 160, 99);
+      font-weight: bold;
+    }
+    
+    .kousyu-label {
+      color: rgb(255, 0, 221);
+      font-weight: bold;  
+    }
+    
+    .leaflet-control-layers-selector + span {
+      font-weight: bold;
+    }
+
+    .leaflet-control-layers-overlays label:first-child input,
+    .leaflet-control-layers-overlays label:nth-child(7) input {
+    display: none;
+    }
+
+    #credit a, #credit a:visited, #credit a:hover, #credit a:active {
+      color: blue;
+      text-decoration: none;
+    }
+    #credit a:hover{
+      text-decoration: underline;
+      color: blueviolet;
+    }
+    @media (max-width: 600px) {
+    .leaflet-control-layers,.leaflet-control-zoom,.leaflet-control-scale {
+      font-size: 18px !important;
+    }
+    .leaflet-control-zoom a {
+      width: 40px !important;
+      height: 40px !important;
+      line-height: 40px !important;
+      font-size: 24px !important;
+    }
+    .leaflet-control-layers-selector {
+      transform: scale(1.5);
+      margin-right: 6px;
+    }
+    .leaflet-control-layers-expanded {
+      padding: 12px !important;
+    }
+  }
